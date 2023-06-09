@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>krishna-farm</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="discription" content="krishna-farm" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assest/style/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+     
+    </head>
+    <body>
+        <header class="main-navbar" id="navbar_wrapper">
+            <nav class="navbar padding--16 container">
+                <a href="index.html" class="logo-img">
+                    <img src="./assest/image/farmlogo.svg" alt="" />
+                </a>
+                <div class="navagation">
+                    <div class="navbar-wrap text-transform">
+                        <div>
+                            <a href="#home" class="nav-link">Home</a>
+                        </div>
+
+                        <div>
+                            <a href="#product" class="nav-link">Product</a>
+                        </div>
+                        <div>
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                        </div>
+                        <div>
+                            <a href="#about_us" class="nav-link">About us</a>
+                        </div>
+                        <div>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </div>
+                        <!-- <div>
+                            <a href="#resources" class="nav-link">Resources</a>
+                        </div> -->
+                        <!-- <div class="get-link">
+                            <a href="#get_a_quote" class="nav-link-br">Get A Quote</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="nav-button">
+                    <a href="javascript:void(0);" class="menubutton">
+                        <div class="menuline1"></div>
+                        <div class="menuline2"></div>
+                        <div class="menuline3"></div>
+                    </a>
+                    <!-- <a class="search-icon font-size--25" href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a> -->
+                    <div class="get-link">
+                        <a href="#get_a_quote" class="nav-link-br"><i class="fa-solid fa-phone"></i> +91 8758250738</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="nav-wrap text-transform mobile-nav">
+                <div>
+                    <a href="#home" class="nav-link">Home</a>
+                </div>
+
+                <div>
+                    <a href="#product" class="nav-link">Product</a>
+                </div>
+                <div>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </div>
+                <div>
+                    <a href="#about_us" class="nav-link">About us</a>
+                </div>
+                <div>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- <div>
+                    <a href="#resources" class="nav-link">Resources</a>
+                </div> -->
+            </div>
+        </header>
+        <section id="home" class="home-container container">
+            <div class="home-Detail">
+                <h1 class="text-transform--uppercase color-white font-size--62">
+                    welcome to<br />
+                    agriculture farm
+                </h1>
+                <p class="font-size--20 font-weight--400 color-white line-height--40 letter-space--1 m-45-0">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt quasi assumenda nobis consequatur optio
+                    accusamus ipsam quibusdam.
+                </p>
+                <p class="font-size--20">
+                    <a href="#involed" class="our-contact">Contact</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="product" class="product-container container">
+            <div class="product-header">
+                <h1 class="text-transform--uppercase font-size--50 font-weight--600 letter-space--1 text-align--center p-125-0-55 topup">
+                    our product
+                </h1>
+                <p class="font-size--20 font-weight--400 line-height--40 letter-space--1 text-align--center margin-45-0 topup">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt quasi assumenda nobis consequatur optio
+                    accusamus ipsam quibusdam.
+                </p>
+            </div>
+            <div class="product-wrapper">
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/mango.webp" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Mango</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="mango.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/kharek.webp" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Kharek</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="kharek.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/dragon-fruit-bg.jpg" alt="" class="effect"/></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Dragon fruit</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="dragon-fruit.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/seasame-bg.jpg" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Tal</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="tal.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/mungdal.webp" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Mung Dal</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="mung-dal.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/mung.webp" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Mung</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="mung.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/musturd-bg.jpg"   alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Musturd</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="musturd.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/cowghee.webp" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Cow Ghee</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="cow-ghee.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/pearl-millet-bg.jpg" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Pearl millet</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="pearl-millet.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/amaranth1.jpg" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Amaranth Millet</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="amaranth-millet.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/casava1.jpeg" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">Casava Items</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="casava-Items.html">More Details</a>
+                    </div>
+                </div>
+                <div class="product-wrap topup">
+                    <div class="product-img"><img src="./assest/image/cms-banner-3.jpg" alt="" /></div>
+                    <div class="product-detail">
+                        <h2 class="font-weight--600 font-size--28">High Quality Farming</h2>
+                        <p class="font-size--18 font-weight--400 letter-space--1 m-25-0">
+                            There are so many variations of passages more Ipsum available but the majority have suffered alteration some
+                            form.
+                        </p>
+                        <a class="" href="#">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section id="gallery" class="gallery-container container">
+            <div class="gallery-header">
+                <h1 class="text-transform--uppercase font-size--50 font-weight--600 letter-space--1 text-align--center p-125-0-55 topup">
+                    Gallery
+                </h1>
+            </div>
+            <div class="wrapper">
+                <div class="gallery">
+                    <a href="/assest/image/dragnfruit.webp" data-fancybox="gallery" data-caption="Caption #1" class="image topup ">
+                        <span><img src="assest/image/dragnfruit.webp" alt="" /></span>
+                    </a>
+                    <a href="/assest/image/mango.webp" data-fancybox="gallery" data-caption="Caption #2" class="image topup">
+                        <span><img src="assest/image/mango.webp" alt="" /></span>
+                    </a>
+                    <a href="/assest/image/cowghee.webp" data-fancybox="gallery" data-caption="Caption #3" class="image topup">
+                        <span><img src="assest/image/cowghee.webp" alt="" /></span>
+                    </a>
+                    <a href="/assest/image/mung.webp" data-fancybox="gallery" data-caption="Caption #4" class="image topup">
+                        <span><img src="assest/image/mung.webp" alt="" /></span>
+                    </a>
+                    <a href="/assest/image/sesame.webp" data-fancybox="gallery" data-caption="Caption #5" class="image topup">
+                        <span><img src="assest/image/sesame.webp" alt="" /></span>
+                    </a>
+                    <a href="/assest/image/mungdal.webp" data-fancybox="gallery" data-caption="Caption #6" class="image topup">
+                        <span><img src="assest/image/mungdal.webp" alt="" /></span>
+                    </a>
+                </div>
+            </div>
+            <div class="more-image topup">
+                <a href="gallery.html" class="more-image-link topup">View More</a>
+            </div>
+        </section>
+        <section id="about_us" class="about-us-container container">
+            <h1 class="text-transform--uppercase font-size--50 font-weight--600 letter-space--1 text-align--center p-125-0-55 topup">
+                about us
+            </h1>
+
+            <div class="about-us-wrapper">
+                <div class="about-us-data">
+                    <p class="font-size--20 font-weight--400 line-height--40 letter-space--1 margin-45-0 topup">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id odit adipisci ipsa sapiente temporibus, culpa
+                        corporis, quisquam veritatis sint non repudiandae ullam tenetur saepe distinctio earum pariatur reiciendis
+                        minima?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ratione odit dolores inventore optio
+                        enim, rem cupiditate illum. Atque quasi neque necessitatibus quaerat odit esse similique ipsam culpa maxime
+                        earum.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="about-us-img topup">
+                    <img class="about-img-a" src="./assest/image/randy-fath-dDc0vuVH_LU-unsplash.jpg" alt="" />
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="form-container">
+            <h2 class="text-transform--uppercase font-size--50 font-weight--600 letter-space--1 text-align--center p-125-0-55 topup">
+                Contact
+            </h2>
+
+            <form id="form">
+                
+                <div class="row inputbox">
+                
+                    <div class="column">
+                    <label for="fname">First name :</label>
+                    <input type="text" id="fname" name="fname" class="border_curve" value="" placeholder="Enter your first name" required />
+                        </div>
+                        <div class="column">
+                    <label for="lname">Last name :</label>
+                    <input type="text" id="lname" class="border_curve" name="lname" value="" placeholder="Enter your last name" required />
+                </div>
+                </div>
+               
+                    <div class="row inputbox">
+                        <div class="column">
+                    <label for="contact-no">Contact Number :</label>
+                    <input type="text" class="border_curve" id="contact-no" name="contact-no" value="" placeholder="Enter your contact number" />
+                </div>
+                <div class="column">
+                    <label for="email">Email Address :</label>
+                    <input type="text" id="email" name="email" class="border_curve" value="" placeholder="Enter your email address" />
+                </div>
+            </div>
+               
+                    <label for="enquiry">Enquiry :</label>
+                    <textarea
+                        name="enquiry"
+                        class="border_curve"
+                        id="enquiry"
+                        type="text"
+                        rows="7"
+                        value=""
+                        placeholder="Enter your enquiry"
+                        required></textarea>
+              
+                <button id="btn" type="submit" >Submit</button>
+            </form>
+        </section>
+        <section ss>
+            <div class="contact_container container max-width-1340 ">
+                <div class="contact_item">
+                    <p>Ramesh Hirani</p>
+                    <p><i class="fa-solid fa-phone"></i> 9902251356</p>
+                    <span><i class="fa-sharp fa-solid fa-location-dot"></i> Bhuj</span>
+                </div>
+                <div class="contact_item">
+                    <p>Kishor Hirani</p>
+                    <p><i class="fa-solid fa-phone"></i> 9902251356</p>
+                    <span><i class="fa-sharp fa-solid fa-location-dot"></i> Bhuj</span>
+                </div>
+                <div class="contact_item">
+                    <p>Dinesh Hirani</p>
+                    <p><i class="fa-solid fa-phone"></i> 9902251356</p>
+                    <span><i class="fa-sharp fa-solid fa-location-dot"></i> Bhuj</span>
+                </div>
+            </div>
+            </section>
+
+        <section class="footer-container container">
+            <div class="footer-wrap">
+                <div class="footer-data address-data topup">
+                    <img class="footer-img" src="./assest/image/footer-logo-nav.svg" alt="" />
+                    <div class="footer-address">
+                        <i class="fa-solid fa-location-dot color-white"></i>
+                        <p class="font-size--20 font-weight--400 color-white line-height--40 letter-space--1">
+                            Nr. Krishna city kodki- mankuva road, bhuj,Kutch - 370030
+                        </p>
+                    </div>
+                   
+                </div>
+                <div class="footer-data topup">
+                    <div class="footer-address">
+                        <i class="fa-solid fa-phone color-white"></i>
+                        <p class="font-size--20 font-weight--400 color-white line-height--40 letter-space--1">+91 8758250738</p>
+                    </div>
+                    <div class="footer-address">
+                        <i class="fa-sharp fa-solid fa-envelope color-white"></i>
+                        <a class="color-white text-decoration--none font-size--20" href=" contact@krishnafarm-kodki.in">
+                            contact@krishnafarm-kodki.in</a
+                        >
+                    </div>
+                    
+                </div>
+                <div class="footer-data topup">
+                    <div class="media-logo">
+                        <i class="fa-brands fa-facebook-f color-white font-size--25"></i>
+                        <i class="fa-brands fa-instagram color-white font-size--25"></i>
+                        <i class="fa-brands fa-twitter color-white font-size--25"></i>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="footer-row"></div>
+            <div class="footer-Policy">
+                <p class="font-size--16 font-weight--400 color-white line-height--40 text-align--center">
+                    ©2023 All Rights Reserved. Developed By Deepcoder
+                </p>
+            </div>
+        </section>
+
+        <script src="./assest/js/custome.js"></script>
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {
+                contentClick: 'iterateZoom',
+                Images: {
+                    Panzoom: {
+                        maxScale: 4,
+                    },
+                },
+            });
+        </script>
+        <script>
+            document.getElementById('form').addEventListener('submit' , (e) => {
+                e.preventDefault();
+                handleSubmit()
+            })
+            const handleSubmit = async (e) => {
+                const firstName = document.getElementById('fname').value;
+                const lastName = document.getElementById('lname').value;
+                const contactno = document.getElementById('contact-no').value;
+                const email = document.getElementById('email').value;
+                const enquiry = document.getElementById('enquiry').value;
+
+                const state = {
+                    firstName: firstName,
+                    lastName: lastName,
+                    contactNumber: contactno,
+                    email: email,
+                    enquiry: enquiry,
+                };
+                const formData = new FormData();
+                for (const key in state) {
+                    formData.append(key, state[key]);
+                }
+                formData.append('formGoogleSheetName', 'Sheet1');
+                formData.append('formGoogleSendEmail', 'keraidharmesh@gmail.com');
+                const url =
+                    'https://script.google.com/macros/s/AKfycbwbuRwdnaC0VrT2TAwKtEp21Ub6IjVEaBghB45dYAnUQtNwUiFEfCg6dUwefajqxnSCAg/exec';
+                await axios.post(url, formData, {
+                    headers: { 'Content-Type': 'multipart/form-data' },
+                }).then((response) => {
+                    // console.log(response);
+                    
+                    document.getElementById("form").reset()
+                    toastr.success('Your Enquiry generated successfully.We will Contact you soon');
+                }).catch((error) => {
+                    toastr.warning('Oops! Something went wrong');
+                });
+            };
+        </script>
+    </body>
+</html>
