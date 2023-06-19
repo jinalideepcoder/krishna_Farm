@@ -55,6 +55,7 @@
 .contact_container.max-width-1340{
     margin: 25px auto 55px;
     padding: 0px 20px;
+    /* display: block; */
 }
 .contact_item{
     padding:15px 100px 15px 100px;
@@ -119,6 +120,11 @@
 .growing_condition ul li{
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.product-detail p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 /* end new */
 :root {
@@ -235,6 +241,9 @@ body {
 }
 .p-125-0-55 {
     padding: 125px 0px 55px;
+}
+.p-125-0-25 {
+    padding: 125px 0px 25px;
 }
 .p-50-0 {
     padding: 50px 0px;
@@ -1199,5 +1208,8 @@ button:hover {
     }
     .image_wrapper{
         position: static;
+    }
+    .contact_container{
+        display: block;
     }
 }
